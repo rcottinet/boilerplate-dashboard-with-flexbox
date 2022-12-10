@@ -1,0 +1,70 @@
+// $primary: #276fc2;
+// $secondary: #e8d21d;
+// $border-radius: 1px;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+body {
+  border-width: 10px;
+  border-color: grey;
+  border-style: solid;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  border-width: 10px;
+  border-color: green;
+  border-style: solid;
+  height: 5rem;
+}
+
+.root-dashboard {
+  border-width: 10px;
+  border-color: blue;
+  border-style: solid;
+
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-panel-dashboard {
+  border-width: 10px;
+  border-color: red;
+  border-style: solid;
+  width: 10rem;
+
+  padding: 5px;
+}
+
+.content-dashboard {
+  border-width: 10px;
+  border-color: purple;
+  border-style: solid;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px;
+}
+
+.first-element {
+  border-width: 10px;
+  border-color: orange;
+  border-style: solid;
+
+  padding: 5px;
+}
+
+.second-element {
+  border-width: 10px;
+  border-color: orange;
+  border-style: solid;
+
+  padding: 5px;
+  margin-top: 5px;
+}
