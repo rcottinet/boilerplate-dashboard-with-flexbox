@@ -23,7 +23,7 @@ body {
   padding: 5px;
 }
 
-.root-dashboard {
+.dashboard-root {
   border-width: 10px;
   border-color: blue;
   border-style: solid;
@@ -33,7 +33,7 @@ body {
   flex-direction: row;
 }
 
-.left-panel-dashboard {
+.dashboard-left-panel {
   border-width: 10px;
   border-color: red;
   border-style: solid;
@@ -42,7 +42,7 @@ body {
   padding: 5px;
 }
 
-.content-dashboard {
+.dashboard-content {
   border-width: 10px;
   border-color: purple;
   border-style: solid;
